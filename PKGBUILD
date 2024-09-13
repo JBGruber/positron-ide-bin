@@ -3,7 +3,7 @@
 
 pkgname="positron-ide-bin"
 # run bash update_v.sh to update version
-pkgver=2024.07.0_14
+pkgver=2024.09.0_27
 pkgrel=1
 pkgdesc="Positron IDE"
 arch=('x86_64')
