@@ -3,7 +3,7 @@
 
 pkgname="positron-ide-bin"
 # run bash update_v.sh to update version
-pkgver=2024.09.0_27
+pkgver=2024.11.0_116
 pkgrel=1
 pkgdesc="Positron IDE"
 arch=('x86_64')
@@ -11,7 +11,7 @@ url="https://github.com/posit-dev/positron"
 license=('custom')
 depends=('r>=3.3.0' 'zstd' 'libarchive')
 source=("https://github.com/posit-dev/positron/releases/download/${pkgver//_/-}/Positron-${pkgver//_/-}.deb")
-sha256sums=('SKIP')  # TODO: replace 'SKIP' with actual checksum for better security
+sha256sums=('a44db95d56055bc5b0c90ef39a8c769a65f2e990926979368129cf8a683bc6d5')
 OPTIONS=(!debug !lto)
 
 package() {
